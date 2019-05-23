@@ -1,0 +1,109 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\PRYSERVITECA\\Serviteca\\Negocio\\NEGOCIO.csproj": {}
+  },
+  "projects": {
+    "C:\\PRYSERVITECA\\Serviteca\\DAO\\DAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PRYSERVITECA\\Serviteca\\DAO\\DAO.csproj",
+        "projectName": "DAO",
+        "projectPath": "C:\\PRYSERVITECA\\Serviteca\\DAO\\DAO.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\PRYSERVITECA\\Serviteca\\ENTIDADES\\ENTIDADES.csproj": {
+                "projectPath": "C:\\PRYSERVITECA\\Serviteca\\ENTIDADES\\ENTIDADES.csproj"
+              },
+              "C:\\PRYSERVITECA\\Serviteca\\UTILIDADES\\UTILIDADES.csproj": {
+                "projectPath": "C:\\PRYSERVITECA\\Serviteca\\UTILIDADES\\UTILIDADES.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\PRYSERVITECA\\Serviteca\\ENTIDADES\\ENTIDADES.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PRYSERVITECA\\Serviteca\\ENTIDADES\\ENTIDADES.csproj",
+        "projectName": "ENTIDADES",
+        "projectPath": "C:\\PRYSERVITECA\\Serviteca\\ENTIDADES\\ENTIDADES.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\PRYSERVITECA\\Serviteca\\Negocio\\NEGOCIO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PRYSERVITECA\\Serviteca\\Negocio\\NEGOCIO.csproj",
+        "projectName": "NEGOCIO",
+        "projectPath": "C:\\PRYSERVITECA\\Serviteca\\Negocio\\NEGOCIO.csproj",
+        "packagesPath": "C:\\Users\\juand\\.nuget\\packages\\",
+        "outputPath": "C:\\PRYSERVITECA\\Serviteca\\Negocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\juand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\PRYSERVITECA\\Serviteca\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\PRYSERVITECA\\Serviteca\\DAO\\DAO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\PRYSERVITECA\\Serviteca\\UTILIDADES\\UTILIDADES.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PRYSERVITECA\\Serviteca\\UTILIDADES\\UTILIDADES.csproj",
+        "projectName": "UTILIDADES",
+        "projectPath": "C:\\PRYSERVITECA\\Serviteca\\UTILIDADES\\UTILIDADES.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
